@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sampleQueue.QueueTest" time="0.238" tests="16" errors="0" skipped="3" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/RenatoGamboa/Desktop/GradSchoolSpring/ICSI518/Assignment5/junit-assignment-renatogamboa-master/target/test-classes:/Users/RenatoGamboa/Desktop/GradSchoolSpring/ICSI518/Assignment5/junit-assignment-renatogamboa-master/target/classes:/Users/RenatoGamboa/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/Users/RenatoGamboa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/Users/RenatoGamboa/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/RenatoGamboa/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/RenatoGamboa/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/Users/RenatoGamboa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/Users/RenatoGamboa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/Users/RenatoGamboa/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/RenatoGamboa/Desktop/GradSchoolSpring/ICSI518/Assignment5/junit-assignment-renatogamboa-master/target/surefire/surefirebooter4953412940356340166.jar /Users/RenatoGamboa/Desktop/GradSchoolSpring/ICSI518/Assignment5/junit-assignment-renatogamboa-master/target/surefire 2019-05-05T22-44-48_073-jvmRun1 surefire1515617840650360633tmp surefire_06483558779254939883tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/RenatoGamboa/Desktop/GradSchoolSpring/ICSI518/Assignment5/junit-assignment-renatogamboa-master/target/test-classes:/Users/RenatoGamboa/Desktop/GradSchoolSpring/ICSI518/Assignment5/junit-assignment-renatogamboa-master/target/classes:/Users/RenatoGamboa/.m2/repository/org/junit/jupiter/junit-jupiter/5.4.2/junit-jupiter-5.4.2.jar:/Users/RenatoGamboa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/Users/RenatoGamboa/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/RenatoGamboa/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/RenatoGamboa/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/Users/RenatoGamboa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.4.2/junit-jupiter-params-5.4.2.jar:/Users/RenatoGamboa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/Users/RenatoGamboa/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/RenatoGamboa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/RenatoGamboa/Desktop/GradSchoolSpring/ICSI518/Assignment5/junit-assignment-renatogamboa-master"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/RenatoGamboa/Desktop/GradSchoolSpring/ICSI518/Assignment5/junit-assignment-renatogamboa-master/target/surefire/surefirebooter4953412940356340166.jar:/Users/RenatoGamboa/.m2/repository/org/jacoco/org.jacoco.agent/0.8.1/org.jacoco.agent-0.8.1-runtime.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="user.name" value="RenatoGamboa"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.1"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/RenatoGamboa/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/83/_sgt439d6hl3qdvyp20p5q280000gn/T/"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="user.dir" value="/Users/RenatoGamboa/Desktop/GradSchoolSpring/ICSI518/Assignment5/junit-assignment-renatogamboa-master"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/RenatoGamboa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.ext.dirs" value="/Users/RenatoGamboa/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="isEmptyShouldGiveFalseWhenQueueIsNotEmpty" classname="sampleQueue.QueueTest" time="0">
+    <skipped message="void sampleQueue.QueueTest.isEmptyShouldGiveFalseWhenQueueIsNotEmpty() is @Disabled"/>
+  </testcase>
+  <testcase name="isEmptyShouldGiveTrueOnQueueInit" classname="sampleQueue.QueueTest" time="0.056"/>
+  <testcase name="isInstantiatedWithNew" classname="sampleQueue.QueueTest" time="0">
+    <skipped message="void sampleQueue.QueueTest.isInstantiatedWithNew() is @Disabled"/>
+  </testcase>
+  <testcase name="throwsExceptionsWhenPeeked" classname="sampleQueue.QueueTest$WhenNew" time="0.006"/>
+  <testcase name="throwsExceptionWhenDequeued" classname="sampleQueue.QueueTest$WhenNew" time="0.002"/>
+  <testcase name="isEmpty" classname="sampleQueue.QueueTest$WhenNew" time="0.001"/>
+  <testcase name="constructorTest" classname="sampleQueue.QueueTest$WhenNew$AfterEnqueueing" time="0.01"/>
+  <testcase name="returnElementWhenPeeked" classname="sampleQueue.QueueTest$WhenNew$AfterEnqueueing" time="0.005"/>
+  <testcase name="returnElementWhenDequeued" classname="sampleQueue.QueueTest$WhenNew$AfterEnqueueing" time="0.002"/>
+  <testcase name="queueSizeTest" classname="sampleQueue.QueueTest$WhenNew$AfterEnqueueing" time="0.001"/>
+  <testcase name="bugInEnqueueFunction" classname="sampleQueue.QueueTest$WhenNew$AfterEnqueueing" time="0">
+    <skipped message="void sampleQueue.QueueTest$WhenNew$AfterEnqueueing.bugInEnqueueFunction() is @Disabled"/>
+  </testcase>
+  <testcase name="removeAllTest" classname="sampleQueue.QueueTest$WhenNew$AfterEnqueueing" time="0.002"/>
+  <testcase name="iteratorTest" classname="sampleQueue.QueueTest$WhenNew$AfterEnqueueing" time="0.001"/>
+  <testcase name="returnLength" classname="sampleQueue.QueueTest$WhenNew$AfterEnqueueing" time="0.001"/>
+  <testcase name="toStringTest" classname="sampleQueue.QueueTest$WhenNew$AfterEnqueueing" time="0.002"/>
+  <testcase name="isNotEmpty" classname="sampleQueue.QueueTest$WhenNew$AfterEnqueueing" time="0"/>
+</testsuite>
